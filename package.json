@@ -1,0 +1,19 @@
+{
+  "name": "bitcoinpass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "build": "watchify ./src/popup.js -o ./dist/popup.js"
+  },
+  "author": "Connor Gutman",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^3.0.3",
+    "bitcoinjs-message": "^1.0.1",
+    "browserify": "^14.4.0",
+    "uglify-js": "^3.0.13",
+    "watchify": "^3.9.0"
+  }
+}
